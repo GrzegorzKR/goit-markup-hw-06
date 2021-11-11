@@ -73,16 +73,13 @@
             <h1 class="header-tittle">
               EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU
             </h1>
-            <button
-              class="header-button modal-btn"
-              type="button"
-              data-modal-open
-            >
+            <button class="blue-btn modal-btn" type="button" data-modal-open>
               Zamów usługe
             </button>
           </div>
         </div>
       </section>
+
       <!--Section with white background-->
       <section class="section">
         <div class="container">
@@ -494,20 +491,67 @@
     <!--Modal window-->
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <button type="button" class="close-btn" data-modal-close>
-          <svg
-            width="11"
-            height="11"
-            viewBox="0 0 11 11"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M11 1.10786L9.89214 0L5.5 4.39214L1.10786 0L0 1.10786L4.39214 5.5L0 9.89214L1.10786 11L5.5 6.60786L9.89214 11L11 9.89214L6.60786 5.5L11 1.10786Z"
-              fill="black"
-            />
-          </svg>
-        </button>
+        <div class="modal-close-btn">
+          <button type="button" class="close-btn" data-modal-close>
+            <svg
+              width="11"
+              height="11"
+              viewBox="0 0 11 11"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M11 1.10786L9.89214 0L5.5 4.39214L1.10786 0L0 1.10786L4.39214 5.5L0 9.89214L1.10786 11L5.5 6.60786L9.89214 11L11 9.89214L6.60786 5.5L11 1.10786Z"
+                fill="black"
+              />
+            </svg>
+          </button>
+        </div>
+        <div class="form">
+          <form name="signup-form" autocomplete="off" novalidate>
+            <p class="form-header">Zostaw swoje dane w formularzu poniżej</p>
+            <label class="signup-form-label" for="user-name">Imię</label>
+            <div class="signup-form-input">
+              <svg class="signup-form-icon" width="12" height="12">
+                <use href="./images/icons.svg#icon-name-form"></use>
+              </svg>
+              <input type="text" name="user-name" id="user-name" />
+            </div>
+
+            <label class="signup-form-label" for="phone-user">Telefon</label>
+            <div class="signup-form-input">
+              <svg class="signup-form-icon" width="13" height="13">
+                <use href="./images/icons.svg#icon-phone-form"></use>
+              </svg>
+              <input type="tel" name="phone-user" id="phone-user" />
+            </div>
+
+            <label class="signup-form-label" for="email-user">Email</label>
+            <div class="signup-form-input">
+              <svg class="signup-form-icon" width="15" height="12">
+                <use href="./images/icons.svg#icon-mail-form"></use>
+              </svg>
+              <input type="email" name="email-user" id="email-user" />
+            </div>
+
+            <label class="signup-form-label" for="comment">Komentarz</label>
+            <textarea
+              class="signup-form-textarea"
+              type="text"
+              name="comment"
+              id="comment"
+              placeholder="Wprowadź tekst"
+            ></textarea>
+            <label class="signup-form-label-regulations">
+              <input type="checkbox" name="regulations" id="regulations" />
+              <span class="regulations-description">
+                Oświadczam iż akceptuję <a href="#">Regulamin</a> i
+                <a href="#">Politykę Prywatności</a>
+              </span>
+            </label>
+            <button class="blue-btn" type="submit">Wyślij</button>
+          </form>
+        </div>
       </div>
     </div>
 
