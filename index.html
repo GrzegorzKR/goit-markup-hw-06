@@ -508,7 +508,7 @@
           </button>
         </div>
         <div class="form">
-          <form name="signup-form" autocomplete="off" novalidate>
+          <form name="signup-form" autocomplete="off" method="post" novalidate action="javascript:void(0);">
             <p class="form-header">Zostaw swoje dane w formularzu poniżej</p>
             <label class="signup-form-label" for="user-name">Imię</label>
             <div class="signup-form-input">
@@ -543,7 +543,7 @@
               placeholder="Wprowadź tekst"
             ></textarea>
             <label class="signup-form-label-regulations">
-              <input type="checkbox" name="regulations" id="regulations" />
+              <input class="signup-form-checkbox visualy-hidden" type="checkbox" name="regulations" id="regulations" />
               <span class="regulations-description">
                 Oświadczam iż akceptuję <a href="#">Regulamin</a> i
                 <a href="#">Politykę Prywatności</a>
