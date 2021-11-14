@@ -238,15 +238,9 @@ header {
 /* =========== MAIN SECTION MAIN PAGE===========*/
 /*our strengths*/
 
-.strengths-icons-list {
+.strengths-box {
   display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.strengths-icons-list-item {
-  display: flex;
-  width: 270px;
+  width: 100%;
   height: 120px;
   border-radius: 4px;
   background-color: #f5f4fa;
@@ -255,7 +249,7 @@ header {
   align-items: center;
   justify-content: center;
 }
-.strengths-icons-list-item:last-child {
+.strengths-box:last-child {
   margin-right: 0;
 }
 
