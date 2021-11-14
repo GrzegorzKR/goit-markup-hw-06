@@ -236,7 +236,7 @@ header {
 /* =========== END MAIN PAGE HEADER===========*/
 
 /* =========== MAIN SECTION MAIN PAGE===========*/
-/*our strengths*/
+/*Section with white background - GRID*/
 
 .strengths-box {
   display: flex;
@@ -252,8 +252,6 @@ header {
 .strengths-box:last-child {
   margin-right: 0;
 }
-
-/*Grid*/
 .grid-item-title {
   margin-bottom: 10px;
   font-family: var(--main-font);
