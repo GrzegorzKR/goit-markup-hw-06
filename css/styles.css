@@ -279,7 +279,6 @@ header {
   margin-left: 30px;
 }
 
-
 /*Section "Czym się zajmujemy*/
 h2 {
   font-family: var(--main-font);
@@ -733,6 +732,10 @@ footer .container {
   margin-top: 0;
 }
 
+input {
+  outline: none;
+}
+
 .signup-form-label {
   display: block;
   font-style: var(--main-font);
@@ -777,6 +780,7 @@ footer .container {
 }
 
 .signup-form-textarea {
+  outline: none;
   height: 120px;
   width: 100%;
   resize: none;
